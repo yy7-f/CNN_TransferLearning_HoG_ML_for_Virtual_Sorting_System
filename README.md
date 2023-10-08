@@ -19,6 +19,7 @@ although the objects in this project include non-metal objects such as apples an
 buttons are placed on the corner of the table to start PLC program and drop products.
 
 <img width="413" alt="image" src="https://github.com/yy7-f/Virtual_Sorting_System_with_CNN_TransferLearning_HoG/assets/76237852/21cb07cc-52ae-479f-b617-afa6295d392c">
+
 Fig.1 Virtual model developed using Simumatik
 
 **PLC programming**
@@ -66,9 +67,11 @@ I develop another error handling model that go back to production entry phase if
 The sequential function chart of Error handling is illustrated in Fig.2.
 
 <img width="657" alt="image" src="https://github.com/yy7-f/Virtual_Sorting_System_with_CNN_TransferLearning_HoG/assets/76237852/7fbcf5d5-a6ab-4236-ac5a-bc9462d776ec">
+
 Fig.2 Sequential function chart of PLC
 
 <img width="236" alt="image" src="https://github.com/yy7-f/Virtual_Sorting_System_with_CNN_TransferLearning_HoG/assets/76237852/0e5eb5b3-7d23-4625-9e80-1c579eaf1542">
+
 Fig. 3 Sequential function chart of Error handling
 
 **Vision algorithm**
