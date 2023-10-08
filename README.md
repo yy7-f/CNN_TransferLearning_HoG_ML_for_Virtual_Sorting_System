@@ -1,7 +1,7 @@
 # Virtual_Sorting_System_with_CNN_TransferLearning_HoG
 
-Product sorting system in virtual production line is developed in this project. The tasks for building
-the sorting production line are virtual modeling, PLC programming, vision algorithm and image
+Product sorting system in virtual production line is developed in this project.  
+The sorting production line is built using virtual modeling, PLC programming, vision algorithm, and image
 classification, and robot operation.
 
 **Virtual model**
@@ -132,3 +132,24 @@ robot path.
 Fig.4 The ABB robot
 
 
+**Result**
+The validation accuracy of the convolutional neural network is 93.3%, which is the second best
+accuracy among the three classification models. The validation accuracy of the transfer learning
+using VGG16 is 98%, which is the best accuracy among them. The validation accuracy of the third
+model that utilize HoG and machine learning algorithms are 92% using random forest, 80% using
+k-nearest neighbor, and 70% using decision tree, which is worst performance.
+Regarding the real object classification, the validation accuracy was worth than the result of virtual
+object classification. validation accuracy of the convolutional neural network is 89.2% and that of
+the transfer learning using VGG16 is 96.9%. That of the third model using HoG and machine
+learning algorithms are 84.6% with random forest, 80% with k-nearest neighbor, and 71% with
+decision tree, which is worst performance.
+The virtual model worked accurately while connecting with each software and script. For example,
+when push start button, the signal send to PLC and PLC program proceed to next step. Also, the
+trigger variable ‘trigger_vision’ change to True, the ‘vision_program’ method in python script is
+executed. And based on the value of vision_result, sorting system such as the pneumatic cylinders
+and the ABB robot work smoothly. However, Some classification errors occurred when the trained
+model applied for the virtual sorting system model implementation.
+In addition, the error handling operations work as expected. However, if the model that go back to
+entry product phase when error occurs is used, it cannot remove the products automatically.
+On the other hand, if the model that go back to initial phase when error happens is used, the
+products can be removed manually, but the action to push button is required to start over the system.
