@@ -68,7 +68,7 @@ The sequential function chart of Error handling is illustrated in Fig.2.
 
 <img width="657" alt="image" src="https://github.com/yy7-f/Virtual_Sorting_System_with_CNN_TransferLearning_HoG/assets/76237852/7fbcf5d5-a6ab-4236-ac5a-bc9462d776ec">
 
-Fig.2 Sequential function chart of PLC
+\n Fig.2 Sequential function chart of PLC
 
 <img width="236" alt="image" src="https://github.com/yy7-f/Virtual_Sorting_System_with_CNN_TransferLearning_HoG/assets/76237852/0e5eb5b3-7d23-4625-9e80-1c579eaf1542">
 
