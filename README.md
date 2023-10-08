@@ -117,3 +117,18 @@ gradient of x-direction and y-direction of each cell are calculated and gradient
 gradient direction are computed. Based on the result, the histogram of gradients is created. These
 calculation executed for each cell and each vector of each cell is obtained.
 
+**Robot**
+Sorting Robot is created with ABB RobotStudio and shown in Fig.4. It is equipped to sort products
+instead of the fourth pneumatic cylinder. The robot pick products up and drop them into ‘sorting
+box 4’ when the vision algorithm return ‘vision result = 4’. The robot head move to the point where
+the product is and pick it up and move to the point above the sorting box and drop it and go back to
+initial position. The path is shown in Fig.4 as yellow arrows. The vacuum gripper is equipped on
+the robot head to pick up products. It is connected to the air compressor through a solenoid valve.
+The vacuum length is made longer than default to pick up various different product with the same
+robot path.
+
+<img width="218" alt="image" src="https://github.com/yy7-f/Virtual_Sorting_System_with_CNN_TransferLearning_HoG/assets/76237852/1f0c2e69-0ee2-4130-8070-e98c80fad40f">
+
+Fig.4 The ABB robot
+
+
