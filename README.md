@@ -129,7 +129,7 @@ robot path.
 
 <img width="218" alt="image" src="https://github.com/yy7-f/Virtual_Sorting_System_with_CNN_TransferLearning_HoG/assets/76237852/1f0c2e69-0ee2-4130-8070-e98c80fad40f">
 
-Fig.4 The ABB robot
+Fig.4 ABB robot created with Robotstudio
 
 
 **Result**
