@@ -1,10 +1,12 @@
 # Virtual_Sorting_System_with_CNN_TransferLearning_HoG
 
 Product sorting system in virtual production line is developed in this project.  
-The sorting production line is built using virtual modeling, PLC programming, vision algorithm, and image
-classification (CNN, Transfer leraning, and HoG + ML), and robot operation.
+The sorting production line is built using virtual modeling (Simumatik), PLC programming (Codesys), 
+vision algorithm (Python, OpenCV, OPCUA), 
+image classification (CNN, Transfer learning, and HoG + ML), and robot operation (ABB Robot studio).
 
 **Virtual model**
+
 Virtual model is developed using Simumatik. The model is shown in Fig.1. The conveyors are put
 on the tables and moved by DC motor. The number of conveyers is six and the length of each
 conveyer is 500mm. The DC motor gets electricity from the power supply through DC relay and DC
@@ -23,6 +25,7 @@ buttons are placed on the corner of the table to start PLC program and drop prod
 Fig.1 Virtual model developed using Simumatik
 
 **PLC programming**
+
 PLC programming is built using Codesys. The digital inputs of the PLC contain system start
 button, products entry button, input conveyer sensor, sorter 1 sensor, sorter 2 sensor, sorter 3 sensor,
 sorter 4 (ABB robot) sensor, and sorter 5 sensor and gripper signal of ABB robot. The digital
@@ -75,6 +78,7 @@ Fig.2 Sequential function chart of PLC
 Fig. 3 Sequential function chart of Error handling
 
 **Vision algorithm**
+
 Vision algorithms are developed for sorting the products. OpenCV library is used to read pictures
 taken by camera on Simumatik from a specific folder on the PC. Additionally, OPCUA library is
 used to communicate between the PLC and python script. When the trigger variable ‘trigger_vision’
