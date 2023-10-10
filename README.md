@@ -2,7 +2,7 @@
 
 Product sorting system in virtual production line is developed in this project.  
 The sorting production line is built using virtual modeling, PLC programming, vision algorithm, and image
-classification, and robot operation.
+classification (CNN, Transfer leraning, and HoG + ML), and robot operation.
 
 **Virtual model**
 Virtual model is developed using Simumatik. The model is shown in Fig.1. The conveyors are put
