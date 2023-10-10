@@ -122,6 +122,7 @@ gradient direction are computed. Based on the result, the histogram of gradients
 calculation executed for each cell and each vector of each cell is obtained.
 
 **Robot**
+
 Sorting Robot is created with ABB RobotStudio and shown in Fig.4. It is equipped to sort products
 instead of the fourth pneumatic cylinder. The robot pick products up and drop them into ‘sorting
 box 4’ when the vision algorithm return ‘vision result = 4’. The robot head move to the point where
@@ -137,6 +138,7 @@ Fig.4 ABB robot created with Robotstudio
 
 
 **Result**
+
 The validation accuracy of the convolutional neural network is 93.3%, which is the second best
 accuracy among the three classification models. The validation accuracy of the transfer learning
 using VGG16 is 98%, which is the best accuracy among them. The validation accuracy of the third
