@@ -3,7 +3,7 @@
 Product sorting system in virtual production line is developed in this project.  
 The sorting production line is built using virtual modeling (Simumatik), PLC programming (Codesys), 
 vision algorithm (Python, OpenCV, OPCUA), 
-image classification (CNN, Transfer learning, and HoG + ML), and robot operation (ABB Robot studio).
+image classification (CNN, Transfer learning using VGG16, and HoG + ML), and robot operation (ABB Robot studio).
 
 **Virtual model**
 
